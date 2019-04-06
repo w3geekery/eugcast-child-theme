@@ -1,0 +1,188 @@
+
+
+/* STYLE GUIDE */
+
+/* Primary: */
+
+$blue: #0055B8;
+$red: #FE3B1F;
+
+/* Secondary */
+$gold: #F5A800;
+$aqua: #00C4B3;
+$lt-blue: #00A0DF;
+$grey: #95979A;
+
+// leave margin "the height of the 'C' " ... TBD
+$logo-margin: 10px;
+
+	
+
+/* TYPOGRAPHY */
+.font-teko {
+	font-family: 'Teko', sans-serif;
+}
+
+.font-open-sans {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h5 {
+	font-family: 'Teko', sans-serif;
+}
+
+h3,
+h4,
+h6 {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body,
+p,
+li,
+div,
+span {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/* header, navs */
+
+.colors-custom .site-header {
+	background-color: #fff!important;
+
+}
+.site-branding {
+
+	.site-title {
+		padding-top: 40px;
+		display: inline-block;
+
+		a {
+			font-family: 'Teko', sans-serif;
+			font-size: 50px;
+			line-height: 60px;
+			color: $blue!important;
+			font-weight: 900;
+			text-transform: none;
+			padding-right: 20px;
+
+			&:hover,
+			&:active {
+				color: $red!important;
+				opacity: 1!important;
+			}
+		}
+	}
+
+	.site-description {
+		display: inline-block;
+		line-height: 35px;
+		font-size: 20px;
+		margin: 0;
+		padding: 55px 0 0;
+		vertical-align: top;
+	}
+
+	.custom-logo-link,
+	.site-logo .custom-logo-link {
+		width: 128px;
+		height: 128px;
+		box-shadow: none!important;
+		border: none!important;
+		border-radius: 0;
+		margin-right: 15px;
+		vertical-align: top;
+		padding-right: 0;
+
+		&:hover {
+			width: 128px;
+			height: 128px;
+			box-shadow: none!important;
+			border: none!important;		
+			border-radius: 0;
+		}
+
+		img {
+			max-height: 128px;
+		}
+	}
+
+}
+
+.navigation-top {
+	background-color: $gold!important;
+}
+.colors-custom .main-navigation {
+	#top-menu > .menu-item {
+		& > a {
+			font-family: 'Teko', sans-serif;		
+			color: $blue!important;
+			font-size: 24px;
+			
+			&:hover {
+				color: $red!important;
+			}
+		}
+	}
+
+	.sub-menu > .menu-item {
+		background-color: transparent;
+		
+		&:hover {
+			background-color: transparent;
+
+			& > a {
+				color: $blue!important;
+				font-weight: normal;
+			}
+		}
+
+		& > a {
+			font-family: 'Teko', sans-serif;		
+			color: $blue!important;
+			font-weight: normal;
+			font-size: 24px;
+			
+			&:hover {
+				font-weight: normal;
+				color: $red!important;
+			}
+		}
+	}
+}
+
+
+/* FOOTER - site-footer */
+
+footer.site-footer {
+
+	nav.social-navigation {
+		.social-links-menu li {
+			a {
+				background-color: $blue;
+
+				&:hover {
+					background-color: $red;
+				}
+			}
+		}
+	}
+
+}
+
+/* COMMON */
+body.page:not(.twentyseventeen-front-page) .entry-title,
+body.page .panel-content .entry-title, 
+body.page .entry-title  {
+	font-size: 30px;
+	text-transform: none;
+}
+
+/* HOME PAGE */
+.home {
+
+}
+
