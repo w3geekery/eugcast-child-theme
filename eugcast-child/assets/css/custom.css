@@ -1,0 +1,113 @@
+/* STYLE GUIDE */
+/* Primary: */
+/* Secondary */
+/* TYPOGRAPHY */
+.font-teko {
+  font-family: 'Teko', sans-serif;
+}
+.font-open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h5 {
+  font-family: 'Teko', sans-serif;
+}
+h3, h4, h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+body, p, li, div, span {
+  font-family: 'Open Sans', sans-serif;
+}
+/* header, navs */
+.colors-custom .site-header {
+  background-color: #fff !important;
+}
+.site-branding .site-title {
+  padding-top: 40px;
+  display: inline-block;
+}
+.site-branding .site-title a {
+  font-family: 'Teko', sans-serif;
+  font-size: 50px;
+  line-height: 60px;
+  color: #0055b8 !important;
+  font-weight: 900;
+  text-transform: none;
+  padding-right: 20px;
+}
+.site-branding .site-title a:hover, .site-branding .site-title a:active {
+  color: #fe3b1f !important;
+  opacity: 1 !important;
+}
+.site-branding .site-description {
+  display: inline-block;
+  line-height: 35px;
+  font-size: 20px;
+  margin: 0;
+  padding: 55px 0 0;
+  vertical-align: top;
+}
+.site-branding .custom-logo-link, .site-branding .site-logo .custom-logo-link {
+  width: 128px;
+  height: 128px;
+  box-shadow: none !important;
+  border: none !important;
+  border-radius: 0;
+  margin-right: 15px;
+  vertical-align: top;
+  padding-right: 0;
+}
+.site-branding .custom-logo-link:hover, .site-branding .site-logo .custom-logo-link:hover {
+  width: 128px;
+  height: 128px;
+  box-shadow: none !important;
+  border: none !important;
+  border-radius: 0;
+}
+.site-branding .custom-logo-link img, .site-branding .site-logo .custom-logo-link img {
+  max-height: 128px;
+}
+.navigation-top {
+  background-color: #f5a800 !important;
+}
+.colors-custom .main-navigation #top-menu > .menu-item > a {
+  font-family: 'Teko', sans-serif;
+  color: #0055b8 !important;
+  font-size: 24px;
+}
+.colors-custom .main-navigation #top-menu > .menu-item > a:hover {
+  color: #fe3b1f !important;
+}
+.colors-custom .main-navigation .sub-menu > .menu-item {
+  background-color: transparent;
+}
+.colors-custom .main-navigation .sub-menu > .menu-item:hover {
+  background-color: transparent;
+}
+.colors-custom .main-navigation .sub-menu > .menu-item:hover > a {
+  color: #0055b8 !important;
+  font-weight: normal;
+}
+.colors-custom .main-navigation .sub-menu > .menu-item > a {
+  font-family: 'Teko', sans-serif;
+  color: #0055b8 !important;
+  font-weight: normal;
+  font-size: 24px;
+}
+.colors-custom .main-navigation .sub-menu > .menu-item > a:hover {
+  font-weight: normal;
+  color: #fe3b1f !important;
+}
+/* FOOTER - site-footer */
+footer.site-footer nav.social-navigation .social-links-menu li a {
+  background-color: #0055b8;
+}
+footer.site-footer nav.social-navigation .social-links-menu li a:hover {
+  background-color: #fe3b1f;
+}
+/* COMMON */
+body.page:not(.twentyseventeen-front-page) .entry-title, body.page .panel-content .entry-title, body.page .entry-title {
+  font-size: 30px;
+  text-transform: none;
+}
+/* HOME PAGE */
+/*# sourceMappingURL=custom.css.map */
